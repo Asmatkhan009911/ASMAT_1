@@ -131,7 +131,7 @@ def connection_token():
 
 
 def iAmMethod3Ua():
-	ua = random.choice("[FBAN/FB4A;FBAV/{str(random.randint(111,999))+'.0.0.'+str(random.randrange(1,300))+'.'+str(random.randint(111,999))};FBBV/{FBBV};FBDV/Android,{random.choice(['1','20'])};FBMD/Android;FBSN/android;FBSV/{(android_version).replace('_','.')};FBSS/2;FBCR/{random.choice(['Jazz','Zong'])};FBID/phone;FBLC/en_US;FBOP/5;FBRV/{random.choice(['106631002','0'])}]")
+	ua = random.choice("Mozilla/5.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})) [FBAN/FB4A;FBAV/72.0.0.2133;FBBV/6966247;[FBAN/FB4A;FBAV/318.0.0.24.109;FBBV/377639763;FBDM/{density=3.06,width=720,height=1600};FBLC/en_US;FBRV/0;FBCR/Cerillion;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/SM-A107F;FBSV/12;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]")
 	return ua
 
 
@@ -257,7 +257,7 @@ class iAmMain:
 "source": "register_api",
 "email": uid,
 "password": pw,
-"access_token": "256002347743983|374e60f8b9bb6b8cbb30f78030438895",
+"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "NO_FILE",
 "advertiser_id": str(uuid.uuid4()),
@@ -267,7 +267,7 @@ class iAmMain:
 "method": "auth.login",
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
-"api_key": "882a8490361da98702bf97a021ddc14d"}
+"api_key": "62f8ce9f74b12f84c123cc23437a4a32"}
 
 				headers = {'User-Agent': iAmMethod3Ua(),
 
@@ -276,7 +276,7 @@ class iAmMain:
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
 'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': f'{SEX}',
-'Authorization':'OAuth 256002347743983|374e60f8b9bb6b8cbb30f78030438895',
+'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
 'X-FB-Connection-Quality':f'{SEX}',
 "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
 'X-Tigon-Is-Retry': 'False',
