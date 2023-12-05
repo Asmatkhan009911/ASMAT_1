@@ -132,7 +132,7 @@ def connection_token():
 
 def iAmMethod3Ua():
 
-	android_version = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"
+	android_version = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"])
 	END = "Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G975U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/samsung; FBBD/samsung; FBDV/SM-G975U; FBSV/10; FBCA/armeabi-v7a:;]"
 	ua = random.choice("Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36 [FBAN/FB4A;FBAV/99.0.0.0.52;]"+"Mozilla/5.0 (Linux; Android 10; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Mobile Safari/537.36 [FBAN/FB4A;FBAV/308.0.0.42.118;]"+"Mozilla/5.0 (Linux; Android 10; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Mobile Safari/537.36 [FBAN/FB4A;FBAV/308.0.0.42.118;]"+"Mozilla/5.0 (Linux; Android 10; Infinix Note 8i) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Mobile Safari/537.36 [FBAN/FB4A;FBAV/308.0.0.42.118;]"+"Mozilla/5.0 (Linux; Android 11; SM-G988U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 [FBAN/FB4A;FBAV/330.0.0.33.117;]")
 	return ua
